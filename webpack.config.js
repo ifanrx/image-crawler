@@ -1,6 +1,9 @@
+var path = require('path')
+
 module.exports = {
   output: {
-    filename: 'image-crawler.js',
+    path: __dirname,
+    filename: 'index.js',
     library: 'exports.main',
     libraryTarget: 'assign',
   },
